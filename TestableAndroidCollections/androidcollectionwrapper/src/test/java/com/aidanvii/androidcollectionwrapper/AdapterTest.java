@@ -13,13 +13,13 @@ public class AdapterTest {
 
     @Test
     public void GIVEN_something_WHEN_something_THEN_something() {
-        final Adapter adapter = new Adapter(new JavaSparseArrayWrapper<String>());
+        final UsageExample example = new UsageExample(new JavaSparseArrayWrapperFactory<String>().create());
         //TODO test!
     }
 
     @Test
     public void GIVEN_somethingElse_WHEN_something_THEN_something() {
-        final Adapter adapter = new Adapter(new JavaSparseArrayWrapperFactory<String>());
+        final UsageExample adapter = new UsageExample(new JavaSparseArrayWrapperFactory<String>());
         //TODO test!
     }
 
