@@ -1,1 +1,1 @@
-include ':app', ':androidcollectionwrapper'
+include':androidcollectionwrapper'
