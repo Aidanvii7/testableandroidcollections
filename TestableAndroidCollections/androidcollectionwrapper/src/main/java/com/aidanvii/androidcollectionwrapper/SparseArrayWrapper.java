@@ -1,9 +1,8 @@
 package com.aidanvii.androidcollectionwrapper;
 
 /**
- * Created by aidan.mcwilliams@vimn.com on 15/11/16.
+ * Created by aidan.vii on 15/11/16.
  */
-
 public interface SparseArrayWrapper<E> {
 
     E get(int key);

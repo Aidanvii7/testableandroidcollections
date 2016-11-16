@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 /**
- * Created by aidan.mcwilliams@vimn.com on 15/11/16.
+ * Created by aidan.vii on 15/11/16.
  */
 @RunWith(JUnit4.class)
 public class AdapterTest {

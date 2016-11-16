@@ -5,9 +5,10 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * Created by aidan.mcwilliams@vimn.com on 15/11/16.
+ * Created by aidan.vii on 15/11/16.
  */
 public class JavaSparseArrayWrapperFactory<E> implements SparseArrayWrapperFactory<E> {
+
     @Override
     public SparseArrayWrapper<E> create() {
         return new SparseArrayWrapperImpl();

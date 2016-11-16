@@ -3,9 +3,10 @@ package com.aidanvii.androidcollectionwrapper;
 import android.util.SparseArray;
 
 /**
- * Created by aidan.mcwilliams@vimn.com on 15/11/16.
+ * Created by aidan.vii on 15/11/16.
  */
 public class AndroidSparseArrayWrapperFactory<E> implements SparseArrayWrapperFactory<E> {
+
     @Override
     public SparseArrayWrapper<E> create() {
         return new SparseArrayWrapperImpl();
