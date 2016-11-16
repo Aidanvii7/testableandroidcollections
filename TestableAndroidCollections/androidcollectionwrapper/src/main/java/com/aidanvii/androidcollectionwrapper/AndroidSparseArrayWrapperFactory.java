@@ -8,10 +8,10 @@ import android.util.SparseArray;
 public class AndroidSparseArrayWrapperFactory<E> implements SparseArrayWrapperFactory<E> {
     @Override
     public SparseArrayWrapper<E> create() {
-        return new SparseArrayWrapperImpl<>();
+        return new SparseArrayWrapperImpl();
     }
 
-    private final class SparseArrayWrapperImpl<E> implements SparseArrayWrapper<E> {
+    private final class SparseArrayWrapperImpl implements SparseArrayWrapper<E> {
 
         private final SparseArray<E> sparseArray = new SparseArray<>();
 

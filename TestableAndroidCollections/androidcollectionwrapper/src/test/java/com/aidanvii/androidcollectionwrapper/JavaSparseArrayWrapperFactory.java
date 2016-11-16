@@ -10,10 +10,10 @@ import java.util.TreeMap;
 public class JavaSparseArrayWrapperFactory<E> implements SparseArrayWrapperFactory<E> {
     @Override
     public SparseArrayWrapper<E> create() {
-        return new SparseArrayWrapperImpl<>();
+        return new SparseArrayWrapperImpl();
     }
 
-    private final class SparseArrayWrapperImpl<E> implements SparseArrayWrapper<E> {
+    private final class SparseArrayWrapperImpl implements SparseArrayWrapper<E> {
 
         private final Map<Integer, E> map = new TreeMap<>();
 
